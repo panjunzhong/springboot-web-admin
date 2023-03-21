@@ -15,5 +15,6 @@ public class GitTest {
         System.out.println("hello get2");
         System.out.println("master test");
         System.out.println("hot-fix test");
+        System.out.println("记得更新本地库");
     }
 }
