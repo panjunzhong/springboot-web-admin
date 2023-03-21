@@ -42,7 +42,7 @@ public class IndexController {
      * @return
      */
     @PostMapping("/login")
-    public String main(User user, HttpSession session, Model model) throws MyAdminException {
+    public String main(User user, HttpSession session, Model model){
         if (!StringUtils.isEmpty(user.getUserName()) && !StringUtils.isEmpty(user.getPassword())) {
             //把登录成功的用户保存起来
             session.setAttribute("loginUser", user);
